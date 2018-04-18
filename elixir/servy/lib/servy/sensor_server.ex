@@ -1,7 +1,7 @@
 defmodule Servy.SensorServer do
 
   @processName :sensor_server
-  @refresh_interval :timer.minutes(60) #:timer.seconds(10)
+  @refresh_interval :timer.seconds(15) #:timer.seconds(10)
 
   use GenServer
 
